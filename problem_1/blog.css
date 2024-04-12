@@ -1,0 +1,40 @@
+header {
+    background-color: #372f2f;
+    color: #f0dddd;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    background-color: bisque;
+    color: #8c75fe;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+article h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+article p {
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #fe7676;
+    color: #010101;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
