@@ -5,36 +5,68 @@
     <meta name="description" content="A collection of my work and contact info.">
     <link rel="stylesheet" href="portfolio.css">
 </head>
-<body>
-    <header>
-        <nav>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        </nav>
+        <section id="home">
+            <div class="section-container">
+                <h1>Welcome to Connor's Portfolio</h1>
+                <p>This is my webpage with access to my about me page, portfolio, and my contact info!</p>
+            </div>
+        </section>
 
-    </header>
+        <section id="about">
+            <div class="section-container">
+                <h2>About me</h2>
+                <p>I am a web dev/artist. I create art with the heart, then code it into my portfolio for your enjoyment.</p>
+            </div>
+        </section>
 
+        <section id="portfolio">
+            <div class="section-container">
+                <h2>My portfolio</h2>
+            </div>
+                <div class="gallery">
+                    <div class="gallery_entry">
+                        <img src="monkeyinsuit1.jpeg" alt="Monkey in Suit #1">
+                        <h3>This is monkey in suit #1</h3>
+                        <p>Monkey in Suit #1 means the most to me. My heart and soul was put into this art. It symbolizes my fallen brothers watching down on me.</p>
+                    </div>
+                    <div class="gallery_entry">
+                        <img src="monkeyinsuit2.jpeg" alt="Monkey in Suit #2">
+                        <h3>This is monkey in suit #2</h3>
+                        <p>Monkey in Suit #2 was made during a very dark time in my life.</p>
+                    </div>
+                    <div class="gallery_entry">
+                        <img src="monkeyinsuit3.jpeg" alt="Monkey in Suit #3">
+                        <h3>This is monkey in suit #3</h3>
+                        <p>Monkey in Suit #3 was the final entry in the monkey in suit series.</p>
+                    </div>
+                </div>
+        </section>
 
-
-</body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <section id="contact">
+            <div class="section-container">
+                <h2>Contact me!</h2>
+                <form>
+                    <label for="name">First and Last Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email address:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="body">Body:</label>
+                    <textarea id="body" name="body" required></textarea>
+                    <button type="submit">Submit Email</button>
+                </form>
+            </div>
+        </section>
+    </body>
 </html>
